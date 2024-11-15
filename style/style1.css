@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  .container {
+    width: 100%;
+    height: 100vh;
+    background: #6592CF;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+  }
+
+  .big {
+    width: 750px;
+    height: 350px;
+    background: #243D83;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big:hover {
+    background: #ffffff; /* Sichqoncha kelganda yangi rang */
+}
+
+.middle {
+    width: 600px;
+    height: 600px;
+    background: #6592CF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+
+
+.small {
+    width: 345px;
+    height: 345px;
+    background: #243D83;
+    transform: rotate(15deg);
+    border-radius: 50%;
+}
+
+.small:hover {
+    background: #ffffff; /* Sichqoncha kelganda yangi rang */
+}
+.small_one {
+    width: 100px;
+    height: 100px;
+    background: #ebbb1fe8;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: background 0.5s ease;
+}
+
+.small_one:hover {
+    background-image: url('../photo_2024-11-14_19-18-42.jpg'); /* Rasm yo'lini kiriting */
+    background-size: cover;
+    background-position: center;
+}
+
+.video{
+    width: 50%;
+    height: 500px;
+}

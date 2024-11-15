@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background: #f3ac3c;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.big {
+  width: 30%;
+  height: 60%;
+  justify-content: flex-start;
+  background: #1e615e;
+  display: flex;
+  align-items: flex-end;
+}
+
+.middle {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  background: #917a2e;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+  
+.small {
+  width: 55%;
+  height: 50%;
+  background: #ffb236;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}

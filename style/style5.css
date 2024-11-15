@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background: #549bff;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.eyes-wrapper {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15%;
+}
+.mouth-wrapper {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.eye {
+  width: 20%;
+  height: 70%;
+  background: #6592cf;
+  border: 50px solid #04169e;
+  border-radius: 50%;
+  transition: 0.5s;
+}
+.mouth-circle {
+  width: 20%;
+  height: 70%;
+  background: #6592cf;
+  border: 50px solid #04169e;
+  border-radius: 50%;
+}
+.background {
+  width: 100%;
+  height: 40%;
+  background: #549bff;
+  position: absolute;
+}
+.face {
+  width: 80%;
+  height: 80%;
+}

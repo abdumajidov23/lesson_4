@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    width: 100%;
+    height: 100vh;
+    background: #313131;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .big {
+    width: 750px;
+    height: 350px;
+    background: #06a1a1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .middle {
+    width: 450px;
+    height: 450px;
+    background: #313131;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(45deg)
+  }
+  .small {
+    width: 300px;
+    height: 300px;
+    background: #06a1a1;
+    transform: rotate(90deg)
+  }
+
+  .small_one{
+    width: 100px;
+    height: 100px;
+    background: #313131;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: background 0.5s ease;
+}
+
+.small_one:hover {
+  background: #06a1a1; /* Sichqoncha kelganda yangi rang */
+}
